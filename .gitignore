@@ -1,0 +1,29 @@
+# Python virtual environments
+venv/
+venv312/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large datasets
+data/
+
+# Frontend dependencies and build files
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/

@@ -1,0 +1,20 @@
+[
+    {
+        "model": "Persistence Baseline",
+        "MAE": 5.2151,
+        "RMSE": 11.1097,
+        "R2": 0.9961
+    },
+    {
+        "model": "Linear Regression",
+        "MAE": 5.1802,
+        "RMSE": 10.94,
+        "R2": 0.9963
+    },
+    {
+        "model": "Random Forest",
+        "MAE": 5.0579,
+        "RMSE": 11.0024,
+        "R2": 0.9962
+    }
+]
