@@ -14,7 +14,13 @@ MODEL_PATH = PROJECT_DIR / "models" / "model.pkl"
 app = Flask(__name__)
 
 CORS(app, resources={
-    r"/*": {"origins": ["http://localhost:5173", "http://127.0.0.1:5173"]}
+    r"/*": {
+        "origins": [
+            "http://localhost:5173",
+            "http://127.0.0.1:5173",
+            "https://hospitalens-frontend.onrender.com"
+        ]
+    }
 })
 
 metrics = PrometheusMetrics(app)
