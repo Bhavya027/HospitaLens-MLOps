@@ -5,7 +5,7 @@ import {
 } from "recharts";
 import "./App.css";
 
-const API = "http://127.0.0.1:5001";
+const API = "https://hospitalens.onrender.com";
 
 const initialValues = {
   current_occupancy_beds: 200,
